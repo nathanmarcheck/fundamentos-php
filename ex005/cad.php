@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Resultado</h1>
-    </header>
+  <main>
+    <p>
     <?php 
-    $num = $_GET["numero"];
+    $num = $_REQUEST["numero"];
     
     echo "o numero entecessor de $num é " . ($num - 1) . "\n";
     echo "o numero sucessor de $num é " . ($num + 1) . "\n";
     ?>
+    </p>
+    <p><a href="javascript:history.go(-1)">voltar para a pagina anterior</a></p>
     
+    </main>
 </body>
 </html>
