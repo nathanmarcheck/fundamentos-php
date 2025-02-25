@@ -13,7 +13,7 @@
         <?php 
         $nome = $_GET["nome"] ?? "sem nome";
         $sobrenome = $_GET["sobrenome"] ?? "desconhecido";
-        echo "<p> É um prazer te conhecer, <strong> $nome $sobrenome </strong>! esse é meu site! <p>";
+        echo "<p> É um prazer te conhecer, <strong> $nome $sobrenome </strong>! esse é meu site! </p>";
 
         ?>
         <p><a href="javascript:history.go(-1)">voltar para a pagina anterior</a></p>
